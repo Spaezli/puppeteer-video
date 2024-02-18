@@ -5,3 +5,13 @@
 
 import puppeteer from 'puppeteer';
 
+// Imidiately invoked function
+//(()=>{})()
+// As soon as the page loads
+(async()=>{
+    const browser = await puppeteer.launch({headless:"new"});
+    const page = await browser.newPage();
+
+
+    await browser.close();
+})()
