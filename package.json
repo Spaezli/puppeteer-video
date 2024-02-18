@@ -1,18 +1,23 @@
 {
-  "name": "pptr",
+  "name": "puppeteer-video",
   "version": "1.0.0",
   "description": "",
   "main": "basic.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spaezli/puppeteer-video.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Spaezli/puppeteer-video/issues"
+  },
+  "homepage": "https://github.com/Spaezli/puppeteer-video#readme",
   "dependencies": {
-    "puppeteer": "^19.5.2",
-    "puppeteer-extra": "^3.3.6",
-    "puppeteer-extra-plugin-stealth": "^2.11.2"
+    "puppeteer": "^19.11.1"
   }
 }
