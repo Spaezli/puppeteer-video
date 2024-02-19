@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/Spaezli/puppeteer-video#readme",
   "dependencies": {
-    "puppeteer": "^19.11.1"
+    "puppeteer": "^19.5.2"
   }
 }
